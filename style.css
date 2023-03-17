@@ -180,6 +180,25 @@ border-bottom: 3px solid coral;
 }
 
 /*skills*/
+
+.fa-brands.fa-html5{
+    color: red;
+}
+.fa-brands.fa-css3{
+color: blue;
+}
+.fa-brands.fa-js{
+    color: yellow;
+}
+.fa-brands.fa-bootstrap{
+color: blue;
+}
+.fa-brands.fa-java{
+  color: orangered;
+}
+.fa.fa-database{
+    color: lightblue;
+}
 .skills{
     width: 100%;
     height: 500px;
@@ -198,14 +217,15 @@ border-bottom: 3px solid coral;
     font-size: 25px;
 }
  .skills .skill {
-    background-color: rgb(116, 194, 92);
-    color: white;
+    background-color: rgb(102, 229, 64);
+    color: black;
     text-align: right;
+    font-weight: bold;
     font-size: 20px;
     border-radius: 15px;
-    height: 15px;
+    height: 20px;
     font-size: 12px;
-    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .html {
@@ -227,15 +247,10 @@ border-bottom: 3px solid coral;
     height: 15px;
 }
 
-
-
-
 .java {
     width: 70%;
     height: 15px;
 }
-
-
 .mysql {
     width: 85%;
     height: 15px;
@@ -243,10 +258,10 @@ border-bottom: 3px solid coral;
 
 
 .skills .main_container {
-    background-color: rgb(192, 192, 192);
+    background-color: white;
     width: 80%;
     border-radius: 15px;
-    height: 15px;
+    height: 20px;
 }
 
 /*projects*/
