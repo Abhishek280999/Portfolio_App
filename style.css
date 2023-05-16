@@ -292,6 +292,11 @@ body {
   font-size: 100px;
   letter-spacing: 80px;
 }
+.all_skill > div > img {
+  position: relative;
+  right: 32px;
+height: 95px;
+}
 .fa-brands.fa-html5 {
   color: red;
 }
