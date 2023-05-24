@@ -56,7 +56,7 @@ nav ul a:hover {
   margin-bottom: 8px;
 }
 
-@media (min-width: 390px) and (max-width: 768px)  {
+@media (min-width: 557px) and (max-width: 768px)  {
   .toggle-btn {
     display: block;
   }
@@ -75,7 +75,7 @@ nav ul a:hover {
     display: block;
   }
 }
-@media (max-width: 390px) {
+@media (min-width: 390px) and  (max-width: 576px) {
   .toggle-btn {
     display: block;
   }
@@ -229,7 +229,7 @@ nav ul a:hover {
   border-right: 1px solid navy;
   z-index: -11;
 }
-@media (min-width: 390px)and (max-width: 768px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .icon {
     width: 50px;
     height: 50px;
@@ -261,12 +261,12 @@ nav ul a:hover {
   }
 }
 
-@media  (min-width: 390px)  {
+@media  (min-width: 390px) and (max-width: 576px) {
   .icon {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 18px;
   }
   .main {
     flex-direction: column-reverse;
@@ -285,11 +285,11 @@ nav ul a:hover {
   .Box > img {
     width: 300px;
     height: 350px;
-    margin-left: 15%;
+    margin-left: 25%;
   }
 
   .Box > div {
-    margin-left: 20%;
+    margin-left: 30%;
   }
 }
 
@@ -376,7 +376,7 @@ nav ul a:hover {
   justify-content: space-around;
 }
 
-@media (min-width: 390px) and (max-width: 768px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .about {
     flex-direction: column;
   }
@@ -413,7 +413,7 @@ nav ul a:hover {
   }
 }
 
-@media (min-width: 390px)  {
+@media (min-width: 390px) and (max-width: 576px) {
   .about {
     flex-direction: column;
   }
@@ -502,7 +502,7 @@ nav ul a:hover {
   margin-top: 100px;
 }
 
-@media (min-width: 390px) and (max-width: 768px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .education {
     flex-direction: column;
   }
@@ -522,7 +522,7 @@ nav ul a:hover {
     margin: 100px 50px;
   }
 }
-@media (min-width: 390px){
+@media (min-width: 390px) and (max-width: 576px) {
   .education {
     flex-direction: column;
   }
@@ -607,7 +607,7 @@ nav ul a:hover {
   color: lightblue;
 }
 
-@media (min-width: 390px) and (max-width: 768px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .all_skill {
     flex-direction: row;
   }
@@ -624,7 +624,7 @@ nav ul a:hover {
   }
 }
 
-@media (min-width: 390px)  {
+@media (min-width: 390px) and (max-width: 576px) {
   .all_skill {
     flex-direction: column;
     text-align: center;
@@ -699,7 +699,7 @@ nav ul a:hover {
   letter-spacing: 10px;
 }
 
-@media (min-width: 390px) and (max-width: 768px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(2, 2fr);
     grid-row-gap: 160px;
@@ -717,7 +717,7 @@ nav ul a:hover {
     width: 100%;
   }
 }
-@media (min-width: 390px)  {
+@media (min-width: 390px) and  (max-width: 576px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 0px;
@@ -823,7 +823,7 @@ padding: 30px;
 
 
 
-@media (min-width: 390px) and (max-width: 768px){
+@media (min-width: 557px) and (max-width: 768px){
 .maindiv{
     flex-direction: row;
 }
@@ -835,7 +835,7 @@ padding: 30px;
 }
 
 
-@media (min-width: 390px) {
+@media (min-width: 390px) and (max-width: 576px){
     .maindiv{
         flex-direction: column;
         text-align: center;
