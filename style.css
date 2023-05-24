@@ -229,7 +229,7 @@ nav ul a:hover {
   border-right: 1px solid navy;
   z-index: -11;
 }
-@media (min-width: 557px) and (max-width: 768px) {
+@media (min-width: 390px)and (max-width: 768px) {
   .icon {
     width: 50px;
     height: 50px;
@@ -376,7 +376,7 @@ nav ul a:hover {
   justify-content: space-around;
 }
 
-@media (min-width: 557px) and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .about {
     flex-direction: column;
   }
@@ -502,7 +502,7 @@ nav ul a:hover {
   margin-top: 100px;
 }
 
-@media (min-width: 557px) and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .education {
     flex-direction: column;
   }
@@ -607,7 +607,7 @@ nav ul a:hover {
   color: lightblue;
 }
 
-@media (min-width: 557px) and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .all_skill {
     flex-direction: row;
   }
@@ -699,7 +699,7 @@ nav ul a:hover {
   letter-spacing: 10px;
 }
 
-@media (min-width: 557px) and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(2, 2fr);
     grid-row-gap: 160px;
@@ -823,7 +823,7 @@ padding: 30px;
 
 
 
-@media (min-width: 557px) and (max-width: 768px){
+@media (min-width: 390px) and (max-width: 768px){
 .maindiv{
     flex-direction: row;
 }
