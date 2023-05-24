@@ -43,7 +43,7 @@ nav ul a:hover {
 .toggle-btn {
   width: 35px;
   position: absolute;
-  right: 20px;
+  right: 0px;
   top: 40px;
   display: none;
 }
@@ -56,7 +56,7 @@ nav ul a:hover {
   margin-bottom: 8px;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 557px) and (max-width: 768px)  {
   .toggle-btn {
     display: block;
   }
@@ -75,7 +75,7 @@ nav ul a:hover {
     display: block;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 390px) and  (max-width: 576px) {
   .toggle-btn {
     display: block;
   }
@@ -229,10 +229,10 @@ nav ul a:hover {
   border-right: 1px solid navy;
   z-index: -11;
 }
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .icon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
     font-size: 18px;
   }
@@ -244,7 +244,7 @@ nav ul a:hover {
     font-variant: small-caps;
   }
   .Box > div > h2 {
-    line-height: 50px;
+    line-height: 70px;
   }
 
   .Box {
@@ -256,11 +256,12 @@ nav ul a:hover {
   }
 
   .Box > div {
+    width: 100%;
     margin-left: 35%;
   }
 }
 
-@media (max-width: 576px) {
+@media  (min-width: 390px) and (max-width: 576px) {
   .icon {
     width: 60px;
     height: 60px;
@@ -280,14 +281,15 @@ nav ul a:hover {
 
   .Box {
     width: 100%;
-    margin-top: 30px;
   }
   .Box > img {
-    margin-left: 15%;
+    width: 300px;
+    height: 350px;
+    margin-left: 25%;
   }
 
   .Box > div {
-    margin-left: 25%;
+    margin-left: 30%;
   }
 }
 
@@ -326,7 +328,7 @@ nav ul a:hover {
 }
 .left_side,
 .right_side {
-  width: 80%;
+  width: 100%;
   margin: 50px 20px;
 }
 .left_side {
@@ -374,7 +376,7 @@ nav ul a:hover {
   justify-content: space-around;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .about {
     flex-direction: column;
   }
@@ -411,26 +413,32 @@ nav ul a:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 390px) and (max-width: 576px) {
   .about {
     flex-direction: column;
+  }
+  .about .heading{
+    margin-left: 0px;
   }
   .right_side > div {
     width: 100%;
   }
+  .about .left_side p{
+    margin-left: 10px;
+  }
 
   .right_side {
     flex-direction: column;
-    margin: 180px 20px;
+    margin: 180px 0px;
   }
   .info > img {
-    width: 400px;
-    height: 450px;
-    margin-left: 15px;
+    width: 350px;
+    height: 400px;
+    margin-left: 5px;
   }
   .left_side {
     margin-left: 0px;
-    text-align: center;
+    
   }
   .right_side {
     margin-left: 0px;
@@ -494,7 +502,7 @@ nav ul a:hover {
   margin-top: 100px;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .education {
     flex-direction: column;
   }
@@ -514,15 +522,17 @@ nav ul a:hover {
     margin: 100px 50px;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 390px) and (max-width: 576px) {
   .education {
     flex-direction: column;
   }
   .left {
     width: 100%;
+    margin-left: 15px;
   }
   .education .heading{
-    margin-left: 100px;
+    margin-left: 80px;
+    font-size: 50px;
   }
   .education .left b{
     font-size: 15px;
@@ -530,11 +540,14 @@ nav ul a:hover {
 
   .right {
     width: 100%;
+    margin-left: 0px;
   }
   .education .right img {
-    margin: 10px;
-    width: 85%;
-    height: 400px;
+    position: relative;
+    bottom: 200px;
+    right: 40px;
+    width: 100%;
+    height: 300px;
   }
   .right {
     margin: 100px 50px;
@@ -594,7 +607,7 @@ nav ul a:hover {
   color: lightblue;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .all_skill {
     flex-direction: row;
   }
@@ -611,22 +624,27 @@ nav ul a:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 390px) and (max-width: 576px) {
   .all_skill {
     flex-direction: column;
     text-align: center;
+  }
+  #section3{
+    position: relative;
+    bottom: 200px;
   }
   .skills .heading {
     margin-left: 150px;
   }
   .all_skill > div > i {
     font-size: 80px;
+    margin-left: 80px;
     margin-bottom: 20px;
     margin-top: 20px;
   }
   .all_skill > div > h3 {
     text-align: start;
-    margin-left: 210px;
+    margin-left: 170px;
   }
   .all_skill > div {
     margin-left: 0px;
@@ -681,33 +699,46 @@ nav ul a:hover {
   letter-spacing: 10px;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 557px) and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(2, 2fr);
     grid-row-gap: 160px;
+    margin-left: 50px;
+  grid-column-gap: 50px;
+
+
   }
 
   .container > div {
-    margin: 20px;
+     
     height: 200px;
   }
+  .container > div > video {
+    width: 100%;
+  }
 }
-@media (max-width: 576px) {
+@media (min-width: 390px) and  (max-width: 576px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 0px;
     margin-top: 800px;
     text-align: center;
   }
+  
+  .container > div > video{
+    width: 90%;
+  }
 
   .container > div {
-    margin: 100px;
+    margin: 0px;
+    margin-bottom: 120px;
     height: 280px;
   }
   .projects .heading {
     position: relative;
     color: antiquewhite;
     top: 850px;
+    right: 70px;
   }
   .projects .heading{
     margin-left: 150px;
@@ -792,7 +823,7 @@ padding: 30px;
 
 
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 557px) and (max-width: 768px){
 .maindiv{
     flex-direction: row;
 }
@@ -804,14 +835,15 @@ padding: 30px;
 }
 
 
-@media (max-width: 576px){
+@media (min-width: 390px) and (max-width: 576px){
     .maindiv{
         flex-direction: column;
         text-align: center;
         
     }
+ 
     .Contact{
-      padding: 3000px 0px;
+      padding: 2400px 0px;
     
     }
     .maindiv > div{
@@ -821,7 +853,7 @@ padding: 30px;
         margin-left: 0;
     }
     .Contact .heading {
-        margin-left: 150px;
+        margin-left: 70px;
     }
 
 }
